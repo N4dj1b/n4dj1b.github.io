@@ -37,7 +37,7 @@ export function Hero() {
           <p className="max-w-2xl mx-auto mb-10 text-lg leading-relaxed text-muted-foreground">
             I'm a CS student who builds full stack applications with security
             baked in from day one, not patched in later. At my internship with
-            <Link href="#cyble" className="text-primary hover:underline">
+            <Link href="https://cybears.net/" className="text-primary hover:underline">
               {" "}
               Cybears
             </Link>
