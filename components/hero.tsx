@@ -16,7 +16,7 @@ export function Hero() {
       <div className="container relative z-10 px-4 mx-auto sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto text-center">
           {/* Status badge */}
-          <div className="flex items-center justify-center gap-2 mb-8">
+          <div className="flex items-center justify-center gap-2 mb-6">
             <span className="relative flex w-2 h-2">
               <span className="absolute inline-flex w-full h-full bg-green-400 rounded-full opacity-75 animate-ping"></span>
               <span className="relative inline-flex w-2 h-2 bg-green-500 rounded-full"></span>
@@ -111,7 +111,7 @@ export function Hero() {
       {/* Scroll indicator - fixed at bottom */}
       <Link
         href="#about"
-        className="absolute flex flex-col items-center gap-2 text-sm transition-colors -translate-x-1/2 bottom-3 left-1/2 text-muted-foreground hover:text-primary"
+        className="absolute bottom-0 flex flex-col items-center gap-2 text-sm transition-colors -translate-x-1/2 left-1/2 text-muted-foreground hover:text-primary"
       >
         <span>Scroll to learn more</span>
         <ArrowDown className="w-4 h-4 animate-bounce" />
