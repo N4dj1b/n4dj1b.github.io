@@ -24,7 +24,7 @@ export function About() {
                 <a
                   href="https://www.esi-sba.dz/"
                   target="_blank"
-                  className="font-semibold text-foreground hover:text-primary transition-colors"
+                  className="font-semibold transition-colors text-foreground hover:text-primary"
                 >
                   ESI-SBA
                 </a>{" "}
@@ -43,6 +43,11 @@ export function About() {
                 than in a year of school projects.
               </p>
               <p className="text-lg leading-relaxed text-muted-foreground">
+                Currently, I'm interning at{" "}
+                <strong className="text-foreground">Hope Technology</strong>,
+                where I'm working on ensuring system security and availability.
+              </p>
+              <p className="text-lg leading-relaxed text-muted-foreground">
                 I'm looking for a team where I can keep learning, ideally
                 somewhere I can contribute to a real product and work with
                 people better than me.{" "}
@@ -53,7 +58,7 @@ export function About() {
             </div>
 
             <div className="space-y-4 md:col-span-2">
-              <Card className="border-l-4 border-l-primary transition-all duration-300 hover:shadow-md hover:-translate-y-1 hover:bg-muted/30 dark:hover:bg-muted/10">
+              <Card className="transition-all duration-300 border-l-4 border-l-primary hover:shadow-md hover:-translate-y-1 hover:bg-muted/30 dark:hover:bg-muted/10">
                 <CardContent className="p-5">
                   <div className="flex items-start space-x-4">
                     <div className="p-2 rounded-lg bg-primary/10 shrink-0">
@@ -62,7 +67,7 @@ export function About() {
                     <div>
                       <h3 className="text-sm font-semibold">Education</h3>
                       <p className="text-sm text-muted-foreground">
-                        ESI-SBA, 4th Year
+                        ESI-SBA, 5th Year
                       </p>
                       <p className="mt-1 text-xs text-muted-foreground">
                         Cybersecurity Major • 2022 – 2027
@@ -72,7 +77,7 @@ export function About() {
                 </CardContent>
               </Card>
 
-              <Card className="border-l-4 border-l-green-500 transition-all duration-300 hover:shadow-md hover:-translate-y-1 hover:bg-muted/30 dark:hover:bg-muted/10">
+              <Card className="transition-all duration-300 border-l-4 border-l-green-500 hover:shadow-md hover:-translate-y-1 hover:bg-muted/30 dark:hover:bg-muted/10">
                 <CardContent className="p-5">
                   <div className="flex items-start space-x-4">
                     <div className="p-2 rounded-lg bg-green-500/10 shrink-0">
@@ -80,18 +85,28 @@ export function About() {
                     </div>
                     <div>
                       <h3 className="text-sm font-semibold">Experience</h3>
-                      <p className="text-sm text-muted-foreground">
-                        Internship at Cybears
-                      </p>
-                      <p className="mt-1 text-xs text-muted-foreground">
-                        Security awareness platform • Summer 2025
-                      </p>
+                      <div>
+                        <p className="text-sm text-muted-foreground">
+                          Internship at Cybears
+                        </p>
+                        <p className="mt-1 text-xs text-muted-foreground">
+                          Security awareness platform • Summer 2025
+                        </p>
+                      </div>
+                      <div>
+                        <p className="text-sm text-muted-foreground">
+                          Internship at Hope Technology
+                        </p>
+                        <p className="mt-1 text-xs text-muted-foreground">
+                          System Security Administrator • Summer 2026
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </CardContent>
               </Card>
 
-              <Card className="border-l-4 border-l-orange-500 transition-all duration-300 hover:shadow-md hover:-translate-y-1 hover:bg-muted/30 dark:hover:bg-muted/10">
+              <Card className="transition-all duration-300 border-l-4 border-l-orange-500 hover:shadow-md hover:-translate-y-1 hover:bg-muted/30 dark:hover:bg-muted/10">
                 <CardContent className="p-5">
                   <div className="flex items-start space-x-4">
                     <div className="p-2 rounded-lg bg-orange-500/10 shrink-0">
@@ -110,7 +125,7 @@ export function About() {
                 </CardContent>
               </Card>
 
-              <Card className="border-l-4 border-l-blue-500 transition-all duration-300 hover:shadow-md hover:-translate-y-1 hover:bg-muted/30 dark:hover:bg-muted/10">
+              <Card className="transition-all duration-300 border-l-4 border-l-blue-500 hover:shadow-md hover:-translate-y-1 hover:bg-muted/30 dark:hover:bg-muted/10">
                 <CardContent className="p-5">
                   <div className="flex items-start space-x-4">
                     <div className="p-2 rounded-lg bg-blue-500/10 shrink-0">

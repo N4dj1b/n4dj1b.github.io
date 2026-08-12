@@ -10,7 +10,7 @@ export function Hero() {
     >
       <div className="absolute inset-0 z-0 bg-grid-slate-900 bg-[size:32px_32px]"></div>
       <div className="absolute inset-0 z-0 pointer-events-none bg-background [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
-      
+
       <div className="absolute top-0 -translate-x-1/2 left-1/2 w-[800px] h-[400px] bg-primary/20 rounded-full blur-[100px] -z-10 opacity-50 dark:opacity-30 pointer-events-none"></div>
 
       <div className="container relative z-10 px-4 mx-auto sm:px-6 lg:px-8">
@@ -27,7 +27,10 @@ export function Hero() {
           </div>
 
           <h1 className="mb-6 text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl text-foreground">
-            Hey, I'm Nadjib - I build <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-blue-500">secure web apps</span>
+            Hey, I'm Nadjib - I build{" "}
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-blue-500">
+              secure web apps
+            </span>
           </h1>
 
           <p className="mb-6 text-xl sm:text-2xl text-foreground/80">
@@ -37,12 +40,24 @@ export function Hero() {
           <p className="max-w-2xl mx-auto mb-10 text-lg leading-relaxed text-muted-foreground">
             I'm a CS student who builds full stack applications with security
             baked in from day one, not patched in later. At my internship with
-            <Link href="https://cybears.net/" className="text-primary hover:underline">
+            <Link
+              href="https://cybears.net/"
+              className="text-primary hover:underline"
+            >
               {" "}
               Cybears
             </Link>
             , I built a platform that trains employees to recognize phishing
-            attacks before they click.
+            attacks before they click. And now I'm ensuring system security and
+            availability at my internship with
+            <Link
+              href="https://hopetechnology.com/"
+              className="text-primary hover:underline"
+            >
+              {" "}
+              Hope Technology
+            </Link>
+            .
           </p>
 
           <div className="flex flex-col items-center justify-center gap-4 mb-8 sm:flex-row">
@@ -58,7 +73,7 @@ export function Hero() {
               asChild
               className="text-muted-foreground"
             >
-              <Link href="/Mohamed Nadjib Taleb - Resume.pdf" target="_blank">
+              <Link href="/Taleb_Mohamed_Nadjib_Resume.pdf" target="_blank">
                 <FileText className="w-4 h-4 mr-2" />
                 Resume
               </Link>

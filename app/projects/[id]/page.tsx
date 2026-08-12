@@ -153,7 +153,7 @@ const projects: Record<string, ProjectType> = {
       },
       {
         src: [
-          "/projects/restona/hero.png",
+          "/projects/restona/admin.png",
           "/projects/restona/image.png",
           "/projects/restona/image2.png",
           "/projects/restona/image6.png",
@@ -378,7 +378,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
   };
 
   return (
-    <div className="min-h-screen relative bg-background">
+    <div className="relative min-h-screen bg-background">
       <div className="absolute inset-0 z-0 pointer-events-none bg-grid-slate-900 bg-[size:32px_32px] opacity-50 [mask-image:linear-gradient(to_bottom,black,transparent_30%)]"></div>
       <script
         type="application/ld+json"

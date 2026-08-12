@@ -63,13 +63,16 @@ export function Skills() {
             Skills & Technologies
           </h2>
           <p className="max-w-2xl mb-12 text-lg text-muted-foreground">
-            Organized by proficiency — not padded with every tool I've touched
+            Organized by proficiency - not padded with every tool I've touched
             once.
           </p>
 
           <div className="grid gap-6 md:grid-cols-3">
             {skillCategories.map((category, index) => (
-              <Card key={index} className="h-full transition-all duration-300 hover:shadow-lg hover:-translate-y-1 hover:border-primary/30 dark:hover:bg-card/80">
+              <Card
+                key={index}
+                className="h-full transition-all duration-300 hover:shadow-lg hover:-translate-y-1 hover:border-primary/30 dark:hover:bg-card/80"
+              >
                 <CardHeader className="pb-3">
                   <CardTitle className="text-lg">{category.title}</CardTitle>
                   <p className="text-sm text-muted-foreground">
